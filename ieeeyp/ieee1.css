@@ -1,0 +1,132 @@
+body
+{
+background-color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+}
+.head1 h1
+{
+    color:mediumseagreen;
+    padding-left: 30%;
+    padding-top: 20px;
+    padding-right: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.head1
+{
+    background-image: url("ima.jpg");
+}
+.cont
+{
+    margin-left: 10px;
+    margin-right: 10px;
+width: 100%;
+min-height: 500px;
+background-color: whitesmoke;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.box
+{
+    position: relative;
+width: 45%;
+height: 45%
+background-color:#262626;
+margin: 20px;
+background-image: url("yp.jpg");
+border: thistle;
+box-sizing: border-box;
+display: inline-block;
+
+
+}
+.box
+{
+    position: relative;
+width: 45%;
+height: 45%
+background-color:#262626;
+margin: 20px;
+background-image: url("awards.jpg");
+border: thistle;
+box-sizing: border-box;
+display: inline-block;
+
+
+}.box
+{
+    position: relative;
+width: 45%;
+height: 45%
+background-color:#262626;
+margin: 20px;
+background-image: url("initiative.jpg");
+border: thistle;
+box-sizing: border-box;
+display: inline-block;
+
+
+}.box
+{
+    position: relative;
+width: 45%;
+height: 45%
+background-color:#262626;
+margin: 20px;
+background-image: url("ima.jpg");
+border: thistle;
+box-sizing: border-box;
+display: inline-block;
+
+
+}
+.cont .box .imgbox
+{
+    position: relative;
+    overflow: hidden;
+}
+.imgbox img
+{ 
+    max-width: 100%;
+    background-size: cover;
+    object-fit: cover;
+   
+    transition: transform 2s;
+
+}
+.box .text h2
+{
+ position: absolute;
+    margin:-20%;
+    margin-left: 10px;
+    background: rgba(205, 217, 225, 0.913);
+    justify-content: center;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+    text-align: center;
+    padding: 10%
+    letter-spacing: 0.9px;
+    background-color: rgba(202, 211, 181, 0.2);
+}
+.content a
+{
+    text-decoration: none;
+    color: rgb(160, 160, 218);
+}
+.content a:hover
+{
+    color: rebeccapurple;
+
+}
+.box: hover imgbox  img
+{
+    transform: scale(1.22);
+}
