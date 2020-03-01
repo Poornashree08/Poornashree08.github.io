@@ -1,0 +1,60 @@
+body {
+    height: 100%;
+    width: 75%;
+    background-color: #262626;
+    margin: auto;
+}
+H1{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-left: 5%;
+    
+    color: rgb(239, 238, 241);
+}
+.first-head {
+    padding-top: 10%;
+    padding-bottom: 25%;
+    padding-left: 5%;
+
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    padding-bottom: 8%;
+    animation: head;
+    animation-duration: 2s;
+    animation-fill-mode: forwards ;
+    animation-timing-function: steps(400);
+    animation-iteration-count: 30;
+}
+@keyframes head
+{
+0%{color: rgba(176, 217, 233, 0.616);}
+100%{color: whitesmoke;}
+
+}
+
+.ieee {
+    margin: 0;
+    padding-left: 10%;
+    height: 100px;
+    width: 100px;
+}
+
+.ieee1 {
+    float: left;
+    margin-right: 70px;
+}
+
+#i2 {
+    padding:10%;
+     image-resolution: 100% ;
+    animation: pic;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    }
+   a {
+       text-decoration: none;
+   }
