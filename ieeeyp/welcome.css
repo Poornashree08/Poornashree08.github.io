@@ -1,7 +1,7 @@
 body {
     height: 100%;
     width: 75%;
-    background-color: #262626;
+    background-image: linear-gradient(rgba(10, 10, 57,0.9),white);
     margin: auto;
 }
 H1{
